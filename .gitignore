@@ -11,6 +11,9 @@
 *~
 *.sass-cache
 
+# Personal Directory
+empty
+
 # OS or Editor folders
 .DS_Store
 ._*
