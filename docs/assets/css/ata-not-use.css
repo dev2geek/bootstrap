@@ -6,3 +6,49 @@
 
   !DO NOT INCLUDE THIS FILE IN ATA
 */
+
+.show-grid [class*="span"] {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;
+    min-height: 40px;
+    line-height: 40px;
+}
+
+.show-layout [class*="span"] {
+    height: 90px;
+}
+
+.show-grid .row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.twoColumnL {
+    background-color: #adff2f;
+    margin-left: 30px;
+    height: 90px;
+}
+
+.twoColumnR {
+    background-color: #adff2f;
+    margin-right: 30px;
+    height: 90px;
+}
+
+.threeColumnL {
+    background-color: #adff2f;
+    margin-left: 30px;
+    height: 90px;
+}
+
+.threeColumnM {
+    background-color: #adff2f;
+    height: 90px;
+}
+
+.threeColumnR {
+    background-color: #adff2f;
+    margin-right: 30px;
+    height: 90px;
+}
