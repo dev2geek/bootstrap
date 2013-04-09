@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Bootstrap</title>
+    <title>ATA定制的Bootstrap</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!--<script src="assets/js/vendor/modernizr.custom.14842.js"></script>-->
@@ -40,16 +40,180 @@
     <div class="row">
         <div class="span6">
             <h2>标签</h2>
-            <h5>.label</h5>
         </div>
-        <div class="span30"></div>
+        <div class="span30">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>Labels</th>
+                    <th>Markup</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <span class="label label-class">ATA类标签</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-class"&gt;ATA类标签&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-tag">ATA Tag标签</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-tag"&gt;ATA Tag标签&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <!--
+                <tr>
+                    <td>
+                        <span class="label">Default</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label"&gt;Default&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-success">Success</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-success"&gt;Success&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-warning">Warning</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-warning"&gt;Warning&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-important">Important</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-important"&gt;Important&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-info">Info</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-info"&gt;Info&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="label label-inverse">Inverse</span>
+                    </td>
+                    <td>
+                        <code>&lt;span class="label label-inverse"&gt;Inverse&lt;/span&gt;</code>
+                    </td>
+                </tr>
+                -->
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="row">
         <div class="span6">
             <h2>按钮</h2>
-            <h5>.btn</h5>
         </div>
-        <div class="span30"></div>
+        <div class="span30">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>Button</th>
+                    <th>class=""</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><button type="button" class="btn btn-attention">一级按钮</button></td>
+                    <td><code>btn btn-attention</code></td>
+                    <td>一级按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-attention "><i class="icon-search icon-white"></i>一级按钮配图标</button></td>
+                    <td><code>btn btn-attention</code></td>
+                    <td>一级按钮配图标</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-attention btn-mini">迷你一级按钮</button></td>
+                    <td><code>btn btn-attention btn-mini</code></td>
+                    <td>迷你一级按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-attention btn-mini"><i class="icon-search icon-white"></i>迷你一级按钮配图标</button></td>
+                    <td><code>btn btn-attention btn-mini</code></td>
+                    <td>迷你一级按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-normal">普通按钮</button></td>
+                    <td><code>btn btn-normal</code></td>
+                    <td>普通按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-normal"><i class="icon-tags"></i>普通按钮配图标</button></td>
+                    <td><code>btn btn-normal</code></td>
+                    <td>普通按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-normal btn-mini">迷你普通按钮</button></td>
+                    <td><code>btn btn-normal btn-mini</code></td>
+                    <td>迷你普通按钮</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-normal btn-mini"><i class="icon-tags"></i>迷你普通按钮配图标</button></td>
+                    <td><code>btn btn-normal btn-mini</code></td>
+                    <td>迷你普通按钮</td>
+                </tr>
+                <!--
+                <tr>
+                    <td><button type="button" class="btn btn-primary">Primary</button></td>
+                    <td><code>btn btn-primary</code></td>
+                    <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-info">Info</button></td>
+                    <td><code>btn btn-info</code></td>
+                    <td>Used as an alternative to the default styles</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-success">Success</button></td>
+                    <td><code>btn btn-success</code></td>
+                    <td>Indicates a successful or positive action</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-warning">Warning</button></td>
+                    <td><code>btn btn-warning</code></td>
+                    <td>Indicates caution should be taken with this action</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-danger">Danger</button></td>
+                    <td><code>btn btn-danger</code></td>
+                    <td>Indicates a dangerous or potentially negative action</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-inverse">Inverse</button></td>
+                    <td><code>btn btn-inverse</code></td>
+                    <td>Alternate dark gray button, not tied to a semantic action or use</td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-link">Link</button></td>
+                    <td><code>btn btn-link</code></td>
+                    <td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
+                </tr>
+                -->
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
 

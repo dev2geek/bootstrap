@@ -30,6 +30,14 @@
 @purple:                #7a43b6;
 
 
+// ATA colors
+// --------------------------
+@ata_classBg:           #ddd;
+@ata_classFont:         #0066cc;
+@ata_tagBg:             #ccc;
+@ata_tagFont:           @grayDark;
+@ata_organge:           #f97e17;
+
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
@@ -50,7 +58,7 @@
 
 @ataFontFamily: 		tahoma, Arial, "微软雅黑";
 
-@baseFontSize:          14px;
+@baseFontSize:          12px;
 @baseFontFamily:        @ataFontFamily;
 @baseLineHeight:        20px;
 @altFontFamily:         @ataFontFamily;
@@ -68,9 +76,13 @@
 @fontSizeSmall:         @baseFontSize * 0.85; // ~12px
 @fontSizeMini:          @baseFontSize * 0.75; // ~11px
 
+@ataBtnFontSize:        14px;
+@ataFontSizeMini:       12px;
+
 @paddingLarge:          11px 19px; // 44px
 @paddingSmall:          2px 10px;  // 26px
 @paddingMini:           0 6px;   // 22px
+@ataPaddingMini:        4px 14px; //22px
 
 @baseBorderRadius:      4px;
 @borderRadiusLarge:     6px;
@@ -89,6 +101,13 @@
 @btnBackground:                     @white;
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
+
+@btnAttentionBackground:            lighten(@ata_organge, 15%);
+@btnAttentionBackgroundHighlight:   @ata_organge;
+
+@btnNormalBackground:               @white;
+@btnNormalBackgroundHighlight:      darken(@white, 10%);
+
 
 @btnPrimaryBackground:              @linkColor;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
