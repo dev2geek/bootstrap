@@ -106,12 +106,18 @@
   line-height: 14px; // keeps the overall height an even number
 }
 
+.nav-tabs.nav-tabs-mini > li > a {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 // TABS
 // ----
 
 // Give the tabs something to sit on
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+  padding-left: 10px;
 }
 // Make the list-items overlay the bottom border
 .nav-tabs > li {
@@ -119,9 +125,11 @@
 }
 // Actual tabs (as links)
 .nav-tabs > li > a {
+  font-size: @ataBtnFontSize;
+  color:  @ata_gray;
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: @baseLineHeight;
+  line-height: @ataBtnFontSize;
   border: 1px solid transparent;
   .border-radius(4px 4px 0 0);
   &:hover,
@@ -129,17 +137,70 @@
     border-color: @grayLighter @grayLighter #ddd;
   }
 }
+
+.nav-tabs.nav-tabs-mini > li > a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 // Active state, and it's :hover/:focus to override normal :hover/:focus
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
-  color: @gray;
+  //color: @gray;
+  color: @ata_organge;
   background-color: @bodyBackground;
-  border: 1px solid #ddd;
+  border: 1px solid @ata_darkGray;
   border-bottom-color: transparent;
   cursor: default;
 }
 
+.nav-tabs.nav-tabs-2nd > .active > a:after,
+.nav-tabs.nav-tabs-2nd > .active > a:before {
+  bottom: -1px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.nav-tabs.nav-tabs-2nd > .active > a:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: @white;
+  border-width: 7px;
+  left: 50%;
+  margin-left: -7px;
+}
+
+.nav-tabs.nav-tabs-2nd > .active > a:before {
+  border-color: rgba(102, 102, 102, 0);
+  border-bottom-color: @ata_darkGray;
+  border-width: 8px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.nav-tabs.nav-tabs-2nd > li > a,
+.nav-tabs.nav-tabs-2nd > li > a:hover,
+.nav-tabs.nav-tabs-2nd > li > a:focus {
+  position: relative;
+  padding-bottom: 16px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right:0px;
+  border-bottom: 1px solid @ata_darkGray;
+
+}
+
+.nav.nav-tabs-2nd > li > a:hover, .nav.nav-tabs-2nd > li > a:focus {
+  background-color: @white;
+  color: #0066cc;
+}
+
+.nav.nav-tabs-2nd > li.active > a:hover, .nav.nav-tabs-2nd > li.active > a:focus {
+  color: @ata_organge;
+}
 
 // PILLS
 // -----
@@ -235,8 +296,8 @@
 // Active dropdown links
 // -------------------------
 .nav .active .dropdown-toggle .caret {
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border-top-color: @white;
+  border-bottom-color: @white;
 }
 .nav-tabs .active .dropdown-toggle .caret {
   border-top-color: @gray;
