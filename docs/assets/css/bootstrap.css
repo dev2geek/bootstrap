@@ -3974,7 +3974,7 @@ button.close {
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 14px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -4100,6 +4100,7 @@ button.close {
 .btn-mini {
   padding: 4px 14px;
   font-size: 9px;
+  line-height: 9px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
