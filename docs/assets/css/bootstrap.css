@@ -1521,6 +1521,91 @@ address {
   line-height: 20px;
 }
 
+.ata_ft_nav {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+
+.ata_ft_lmhead_gc {
+  font-size: 16px !important;
+  color: #ff9116 !important;
+}
+
+.ata_ft_wztitle_gc {
+  font-size: 14px !important;
+  color: #666666 !important;
+}
+
+.ata_ft_wztitle_gc:hover {
+  color: #ff9116 !important;
+}
+
+.ata_ft_qzname {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: #666666 !important;
+}
+
+.ata_ft_clhead {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: #666666 !important;
+}
+
+.ata_ft_link {
+  color: #0078b6 !important;
+}
+
+.ata_ft_link:hover {
+  color: #ff9116 !important;
+}
+
+.ata_ft_content {
+  color: #818181 !important;
+}
+
+.ata_ft_number {
+  color: #999999 !important;
+}
+
+.ata_ft_rank {
+  color: #ff9116 !important;
+}
+
+.ata_ft_link_todomsg {
+  font-size: 14px !important;
+  color: #ff9116 !important;
+}
+
+.ata_ft_link_todomsg:hover {
+  color: #0078b6 !important;
+}
+
+.ata_ft_emphasize {
+  font-size: 14px !important;
+  color: #ff9116 !important;
+}
+
+.ata_ft_lb_head {
+  font-size: 16px !important;
+  color: #666666 !important;
+}
+
+.ata_ft_lb_title {
+  font-size: 14px !important;
+  color: #0078b6 !important;
+}
+
+.ata_ft_lb_title:hover {
+  color: #ff9116 !important;
+}
+
+.ata_ft_name_undericon {
+  font-size: 14px !important;
+  color: #0078b6 !important;
+}
+
 code,
 pre {
   padding: 0 3px 2px;
