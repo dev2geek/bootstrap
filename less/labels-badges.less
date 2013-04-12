@@ -69,27 +69,33 @@ a {
 
   // ATA-类
   &-class             {
-    background-color: @ata_classBg;
-    color:            @ata_classFont;
+    background-color: @ata_classBg !important;
+    color:            @ata_classFont !important;
     padding:          4px 14px;
     border:           1px solid @ata_classBorder;
   }
   &-class[href]       {
-    background-color: darken(@ata_classBg, 10%);
-    color:            @ata_classFont;
+    background-color: @ata_classBg !important;
+    color:            @ata_classFont !important;
     padding:          4px 14px;
+    &:hover {
+      color: @ata_orange !important;
+    }
   }
 
   // ATA-标签
   &-tag             {
-    background-color: @ata_tagBg;
-    color:            @ata_tagFont;
+    background-color: @ata_tagBg !important;
+    color:            @ata_tagFont !important;
     padding:          2px 12px;
   }
   &-tag[href]       {
-    background-color: darken(@ata_tagBg, 10%);
-    color:            @ata_tagFont;
+    background-color: @ata_tagBg !important;
+    color:            @ata_tagFont !important;
     padding:          2px 12px;
+    &:hover {
+      color: @ata_orange !important;
+    }
   }
 }
 

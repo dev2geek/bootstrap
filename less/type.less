@@ -261,12 +261,23 @@ address {
   color: @ata_orange !important;
 }
 
-// 首页文章标题
-.ata_ft_wztitle_gc {
+// 首页列表条目标题（最新推荐文章列表标题，活跃圈子活跃会员排行标题，新鲜问答标题，感兴趣的圈子文章问题列表）
+.ata_ft_listitem_gc {
   font-size: 14px !important;
   color: @ata_gray !important;
   &:hover {
     color: @ata_orange !important;
+    text-decoration: none !important;
+  }
+}
+
+// 首页小信息块标题（热门文章标题，近期活动标题）
+.ata_ft_smallblock_gc {
+  font-size: 14px !important;
+  color: @ata_blue !important;
+  &:hover {
+    color: @ata_orange !important;
+    text-decoration: none !important;
   }
 }
 
@@ -297,9 +308,14 @@ address {
   color: @ata_lightGray !important;
 }
 
-// 数字、日期
-.ata_ft_number {
+// 附属信息(三级信息)
+.ata_ft_supplementary {
   color: @grayLight !important;
+}
+
+.ata_ft_supplementary[href]:hover {
+    color: @ata_orange !important;
+    text-decoration: none;
 }
 
 // 排行数字

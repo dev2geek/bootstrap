@@ -1532,13 +1532,24 @@ address {
   color: #ff9116 !important;
 }
 
-.ata_ft_wztitle_gc {
+.ata_ft_listitem_gc {
   font-size: 14px !important;
   color: #666666 !important;
 }
 
-.ata_ft_wztitle_gc:hover {
+.ata_ft_listitem_gc:hover {
   color: #ff9116 !important;
+  text-decoration: none !important;
+}
+
+.ata_ft_smallblock_gc {
+  font-size: 14px !important;
+  color: #0078b6 !important;
+}
+
+.ata_ft_smallblock_gc:hover {
+  color: #ff9116 !important;
+  text-decoration: none !important;
 }
 
 .ata_ft_qzname {
@@ -1565,8 +1576,13 @@ address {
   color: #818181 !important;
 }
 
-.ata_ft_number {
+.ata_ft_supplementary {
   color: #999999 !important;
+}
+
+.ata_ft_supplementary[href]:hover {
+  color: #ff9116 !important;
+  text-decoration: none;
 }
 
 .ata_ft_rank {
@@ -4907,11 +4923,6 @@ input[type="submit"].btn.btn-mini {
   line-height: 14px;
 }
 
-.nav-tabs.nav-tabs-mini > li > a {
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
 .nav-tabs {
   padding-left: 10px;
   border-bottom: 1px solid #ddd;
@@ -4939,8 +4950,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-tabs.nav-tabs-mini > li > a {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 5px;
+  line-height: 14px;
 }
 
 .nav-tabs > .active > a,
@@ -6633,30 +6644,40 @@ a.badge:focus {
 .label-class,
 .badge-class {
   padding: 4px 14px;
-  color: #0066cc;
-  background-color: #f4f4f4;
+  color: #0066cc !important;
+  background-color: #f4f4f4 !important;
   border: 1px solid #d2edf3;
 }
 
 .label-class[href],
 .badge-class[href] {
   padding: 4px 14px;
-  color: #0066cc;
-  background-color: #dbdbdb;
+  color: #0066cc !important;
+  background-color: #f4f4f4 !important;
+}
+
+.label-class[href]:hover,
+.badge-class[href]:hover {
+  color: #ff9116 !important;
 }
 
 .label-tag,
 .badge-tag {
   padding: 2px 12px;
-  color: #333333;
-  background-color: #edede7;
+  color: #333333 !important;
+  background-color: #edede7 !important;
 }
 
 .label-tag[href],
 .badge-tag[href] {
   padding: 2px 12px;
-  color: #333333;
-  background-color: #d7d7ca;
+  color: #333333 !important;
+  background-color: #edede7 !important;
+}
+
+.label-tag[href]:hover,
+.badge-tag[href]:hover {
+  color: #ff9116 !important;
 }
 
 .btn .label,

@@ -1,0 +1,411 @@
+/*QS-B*/
+.icon-unfold,
+.icon-unfold:hover,
+.icon-view,
+.icon-refresh,
+.icon-refresh:hover,
+.icon-articletop,
+.icon-comment,
+.icon-close,
+.icon-broadcast,
+.icon-navmessageempty,
+.icon-navhomewhite,
+.icon-navhomegray,
+.icon-navhelp,
+.icon-navmessage,
+.icon-second,
+.icon-profile,
+.icon-delete,
+.icon-delete:hover,
+.icon-fold,
+.icon-fold:hover,
+.icon-article,
+
+.icon-newactivity,
+.icon-newactivity:hover,
+.icon-fav,
+.icon-newqa,
+.icon-newqa:hover,
+
+.icon-first,
+.icon-qatop,
+.icon-like,
+.icon-newarticle,
+.icon-newarticle:hover,
+.icon-answer,
+.icon-edit,
+.icon-edit:hover,
+.icon-down,
+.icon-qa,
+.icon-same,
+.icon-up,
+.icon-activity,
+.icon-third,
+.icon-help,
+.icon-help:hover,
+.icon-canclefav,
+.icon-canclefav:hover,
+.icon-attend,
+.icon-invite,
+.icon-invite:hover,
+.icon-more,
+.icon-more:hover,
+
+.icon-closehover
+{
+	display:	inline-block;
+	background-repeat:	no-repeat;
+	background-image:	url( '../_img/ata_icon_sprites.png' );
+}
+
+.icon-unfold
+{
+	background-position:	-408px -24px;
+	width:	16px;
+	height:	16px;
+}
+.icon-unfold:hover
+{
+    background-position:	-448px 0;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-view
+{
+	background-position:	-424px -24px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-refresh
+{
+	background-position:	-432px 0;
+	width:	16px;
+	height:	16px;
+}
+.icon-refresh:hover
+{
+    background-position:	-504px -32px;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-articletop
+{
+	background-position:	-360px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.icon-comment
+{
+	background-position:	-440px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-close
+{
+	background-position:	-440px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+
+
+.icon-navmessageempty
+{
+	background-position:	-360px -24px;
+	width:	24px;
+	height:	24px;
+}
+
+.icon-broadcast
+{
+	background-position:	-384px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.icon-navhelp
+{
+	background-position:	-456px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-navmessage
+{
+	background-position:	-384px -24px;
+	width:	24px;
+	height:	24px;
+}
+
+.icon-second
+{
+	background-position:	-584px -32px;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-profile
+{
+	background-position:	-456px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-delete
+{
+	background-position:	-464px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-delete:hover
+{
+    background-position:	-552px -32px;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-fold
+{
+	background-position:	-472px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-fold:hover
+{
+	background-position:	-472px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-article
+{
+	background-position:	-480px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-navhomegray
+{
+	background-position:	-488px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-newactivity
+{
+	background-position:	-45px 0;
+	width:	45px;
+	height:	47px;
+}
+
+.icon-newactivity:hover
+{
+    background-position:	-315px 0;
+    width:	45px;
+    height:	47px;
+}
+
+.icon-fav
+{
+	background-position:	-488px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-newqa
+{
+	background-position:	-90px 0;
+	width:	45px;
+	height:	47px;
+}
+
+.icon-newqa:hover
+{
+    background-position:	0 0;
+    width:	45px;
+    height:	47px;
+}
+
+.icon-navhomewhite
+{
+	background-position:	-496px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-first
+{
+	background-position:	-592px 0;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-qatop
+{
+	background-position:	-408px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.icon-like
+{
+	background-position:	-512px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-newarticle:hover
+{
+	background-position:	-180px 0;
+	width:	45px;
+	height:	47px;
+}
+
+.icon-newarticle
+{
+	background-position:	-225px 0;
+	width:	45px;
+	height:	47px;
+}
+
+.icon-answer
+{
+	background-position:	-520px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-edit
+{
+	background-position:	-520px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-edit:hover
+{
+    background-position:	-560px 0;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-down
+{
+	background-position:	-596px -32px;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-qa
+{
+	background-position:	-528px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-same
+{
+	background-position:	-600px -12px;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-up
+{
+	background-position:	-604px 0;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-activity
+{
+	background-position:	-536px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-third
+{
+	background-position:	-608px -24px;
+	width:	12px;
+	height:	12px;
+}
+
+.icon-help
+{
+	background-position:	-536px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-help:hover
+{
+    background-position:	-576px 0;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-canclefav
+{
+	background-position:	-544px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-canclefav:hover
+{
+    background-position:	-504px -16px;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-attend
+{
+	background-position:	-568px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-invite
+{
+	background-position:	-270px 0;
+	width:	45px;
+	height:	47px;
+}
+
+.icon-invite:hover
+{
+    background-position:	-135px 0;
+    width:	45px;
+    height:	47px;
+}
+
+.icon-more
+{
+	background-position:	-568px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.icon-more:hover
+{
+    background-position:	-552px -16px;
+    width:	16px;
+    height:	16px;
+}
+
+.icon-closehover
+{
+	background-position:	-584px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+/*QS-E*/

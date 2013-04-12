@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ATA定制的Bootstrap</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/ata_icon_sprites.css" rel="stylesheet">
+    <link href="assets/css/ata-not-use.css" rel="stylesheet">
+
+    <!--<script src="assets/js/vendor/modernizr.custom.14842.js"></script>-->
+    <script src="assets/js/vendor/modernizr-dev.js"></script>
+
+</head>
+<body>
+<!-- Navbar
+================================================== -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="./index.html">ATA的Bootstrap</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li>
+                        <a href="./index.html">首页</a>
+                    </li>
+                    <li >
+                        <a href="./ata_layout.html">布局</a>
+                    </li>
+                    <li>
+                        <a href="./ata_script.html">动态</a>
+                    </li>
+                    <li>
+                        <a href="./ata_font.html">字体</a>
+                    </li>
+                    <li class="active">
+                        <a href="./ata_icon.html">图标</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="margin-top: 60px;">
+    <div class="hero-unit">
+        <h2>注意：</h2>
+        <p>优先使用视觉给的ATA icon，然后是bootstrap自带的icon</p>
+    </div>
+    <table class="table">
+        <tr>
+            <td>
+                <i class="icon-newactivity"></i>
+            </td>
+            <td>
+                <p>新建活动</p>
+                <code>icon-newactivity</code>
+            </td>
+            <td>
+                <i class="icon-newqa"></i>
+            </td>
+            <td>
+                <p>新建问题</p>
+                <code>icon-newqa</code>
+            </td>
+            <td>
+                <i class="icon-newarticle"></i>
+            </td>
+            <td>
+                <p>新建文章</p>
+                <code>icon-newarticle</code>
+            </td>
+            <td>
+                <i class="icon-invite"></i>
+            </td>
+            <td>
+                <p>邀请入圈</p>
+                <code>icon-invite</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-qatop"></i>
+            </td>
+            <td>
+                <p>置顶问答</p>
+                <code>icon-qatop</code>
+            </td>
+            <td>
+                <i class="icon-qa"></i>
+            </td>
+            <td>
+                <p>问答</p>
+                <code>icon-qa</code>
+            </td>
+            <td>
+                <i class="icon-articletop"></i>
+            </td>
+            <td>
+                <p>置顶文章</p>
+                <code>icon-articletop</code>
+            </td>
+            <td>
+                <i class="icon-article"></i>
+            </td>
+            <td>
+                <p>文章</p>
+                <code>icon-article</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-same"></i>
+            </td>
+            <td>
+                <p>持平</p>
+                <code>icon-same</code>
+            </td>
+            <td>
+                <i class="icon-up"></i>
+            </td>
+            <td>
+                <p>上升</p>
+                <code>icon-up</code>
+            </td>
+            <td>
+                <i class="icon-down"></i>
+            </td>
+            <td>
+                <p>下降</p>
+                <code>icon-down</code>
+            </td>
+            <td>
+                <i class="icon-first"></i>
+            </td>
+            <td>
+                <p>第一</p>
+                <code>icon-first</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-second"></i>
+            </td>
+            <td>
+                <p>第二</p>
+                <code>icon-second</code>
+            </td>
+            <td>
+                <i class="icon-third"></i>
+            </td>
+            <td>
+                <p>第三</p>
+                <code>icon-third</code>
+            </td>
+            <td>
+                <i class="icon-unfold"></i>
+            </td>
+            <td>
+                <p>打开</p>
+                <code>icon-unfold</code>
+            </td>
+            <td>
+                <i class="icon-fold"></i>
+            </td>
+            <td>
+                <p>收拢</p>
+                <code>icon-fold</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-view"></i>
+            </td>
+            <td>
+                <p>已读</p>
+                <code>icon-view</code>
+            </td>
+            <td>
+                <i class="icon-refresh"></i>
+            </td>
+            <td>
+                <p>刷新，换一批</p>
+                <code>icon-refresh</code>
+            </td>
+            <td>
+                <i class="icon-comment"></i>
+            </td>
+            <td>
+                <p>评论</p>
+                <code>icon-comment</code>
+            </td>
+            <td>
+                <i class="icon-close"></i>
+            </td>
+            <td>
+                <p>关闭</p>
+                <code>icon-close</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-broadcast"></i>
+            </td>
+            <td>
+                <p>公告</p>
+                <code>icon-broadcast</code>
+            </td>
+            <td>
+                <i class="icon-profile"></i>
+            </td>
+            <td>
+                <p>编辑</p>
+                <code>icon-profile</code>
+            </td>
+            <td>
+                <i class="icon-delete"></i>
+            </td>
+            <td>
+                <p>删除</p>
+                <code>icon-delete</code>
+            </td>
+            <td>
+                <i class="icon-fav"></i>
+            </td>
+            <td>
+                <p>收藏</p>
+                <code>icon-fav</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-canclefav"></i>
+            </td>
+            <td>
+                <p>取消收藏</p>
+                <code>icon-canclefav</code>
+            </td>
+            <td>
+                <i class="icon-like"></i>
+            </td>
+            <td>
+                <p>赞</p>
+                <code>icon-like</code>
+            </td>
+            <td>
+                <i class="icon-answer"></i>
+            </td>
+            <td>
+                <p>回答</p>
+                <code>icon-answer</code>
+            </td>
+            <td>
+                <i class="icon-edit"></i>
+            </td>
+            <td>
+                <p>编辑</p>
+                <code>icon-edit</code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i class="icon-activity"></i>
+            </td>
+            <td>
+                <p>活动</p>
+                <code>icon-activity</code>
+            </td>
+            <td>
+                <i class="icon-help"></i>
+            </td>
+            <td>
+                <p>帮助</p>
+                <code>icon-help</code>
+            </td>
+            <td>
+                <i class="icon-attend"></i>
+            </td>
+            <td>
+                <p>参加</p>
+                <code>icon-attend</code>
+            </td>
+            <td>
+                <i class="icon-more"></i>
+            </td>
+            <td>
+                <p>更多</p>
+                <code>icon-more</code>
+            </td>
+        </tr>
+        <tr style="background-color: #ff9116">
+            <td>
+                <i class="icon-navmessageempty"></i>
+            </td>
+            <td>
+                <p>没有未读消息</p>
+                <code>icon-navmessageempty</code>
+            </td>
+            <td>
+                <i class="icon-navmessage"></i>
+            </td>
+            <td>
+                <p>有未读消息</p>
+                <code>icon-navmessage</code>
+            </td>
+            <td>
+                <i class="icon-navhomewhite"></i>
+            </td>
+            <td>
+                <p>个人主页（白）</p>
+                <code>icon-navhomewhite</code>
+            </td>
+            <td>
+                <i class="icon-navhomegray"></i>
+            </td>
+            <td>
+                <p>个人主页（灰）</p>
+                <code>icon-navhomegray</code>
+            </td>
+        </tr>
+        <tr style="background-color: #e3db9a">
+            <td>
+                <i class="icon-navhelp"></i>
+            </td>
+            <td colspan="7">
+                <p>导航条引导</p>
+                <code>icon-navhelp</code>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <p>forked from <a href="http://twitter.github.io/bootstrap/">bootstrap</a>, tuned for ATA</p>
+    </div>
+</footer>
+<script src="assets/js/vendor/jquery-1.8.3.min.js"></script>
+<script src="assets/js/vendor/plugins.js"></script>
+<script>
+
+</script>
+<style>
+</style>
+</body>
+</html>
