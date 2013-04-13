@@ -1537,7 +1537,7 @@ address {
   color: #666666 !important;
 }
 
-.ata_ft_listitem_gc:hover {
+.ata_ft_listitem_gc[href]:hover {
   color: #ff9116 !important;
   text-decoration: none !important;
 }

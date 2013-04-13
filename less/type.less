@@ -265,10 +265,11 @@ address {
 .ata_ft_listitem_gc {
   font-size: 14px !important;
   color: @ata_gray !important;
-  &:hover {
-    color: @ata_orange !important;
-    text-decoration: none !important;
-  }
+}
+
+.ata_ft_listitem_gc[href]:hover {
+  color: @ata_orange !important;
+  text-decoration: none !important;
 }
 
 // 首页小信息块标题（热门文章标题，近期活动标题）
