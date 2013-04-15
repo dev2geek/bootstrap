@@ -301,6 +301,7 @@ address {
   color: @ata_blue !important;
   &:hover {
     color: @ata_orange !important;
+    text-decoration: none !important;
   }
 }
 
@@ -349,9 +350,11 @@ address {
 .ata_ft_lb_title {
   font-size: 14px !important;
   color: @ata_blue !important;
-  &:hover {
+}
+
+.ata_ft_lb_title[href]:hover {
     color: @ata_orange !important;
-  }
+    text-decoration: none!important;
 }
 
 // 侧导航按钮
