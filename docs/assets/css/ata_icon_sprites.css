@@ -4,11 +4,12 @@
 .aicon-countdown-running,
 .aicon-countdown-closed,
 .aicon-countdown-waiting,
-.aicon-countdown-review
+.aicon-countdown-review,
+.aicon-activity-top
 {
     display:	inline-block;
     background-repeat:	no-repeat;
-    background-image:	url( 'http://img02.taobaocdn.com/tps/i2/T1R09eXEJdXXal6T2s-96-20.png' );
+    background-image:	url( 'http://img01.taobaocdn.com/tps/i1/T1nl5fXElXXXcXw.Z7-120-24.png' );
 }
 
 .aicon-unfold,
@@ -427,38 +428,43 @@
 
 .aicon-activity-legacy
 {
-    background-position:	-80px 0;
+    background-position:	-104px 0;
     width:	16px;
     height:	16px;
 }
 
 .aicon-countdown-running
 {
-    background-position:	0 0;
+    background-position:	-24px 0;
     width:	20px;
     height:	20px;
 }
 
 .aicon-countdown-closed
 {
-    background-position:	-20px 0;
+    background-position:	-44px 0;
     width:	20px;
     height:	20px;
 }
 
 .aicon-countdown-waiting
 {
-    background-position:	-40px 0;
+    background-position:	-64px 0;
     width:	20px;
     height:	20px;
 }
 
 .aicon-countdown-review
 {
-    background-position:	-60px 0;
+    background-position:	-84px 0;
     width:	20px;
     height:	20px;
 }
 
-/* QuickSprites - END - DO NOT REMOVE THIS LINE */
+.aicon-activity-top
+{
+    background-position:	0 0;
+    width:	24px;
+    height:	24px;
+}
 /*QS-E*/
