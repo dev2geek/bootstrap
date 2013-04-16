@@ -14,3 +14,58 @@
   padding-left: @gridGutterWidth;
   .clearfix();
 }
+
+.ata-board {
+  z-index: @zindexModal;
+  width: 228px;
+  background-color: @white;
+  border: 1px solid #999;
+  *border: 1px solid #999; /* IE6-7 */
+  .border-radius(5px);
+
+  .box-shadow(0 3px 7px rgba(0,0,0,0.3));
+  .background-clip(padding-box);
+// Remove focus outline
+  outline: none;
+}
+
+.ata-board-header {
+  padding: 9px 15px;
+  background-color: @ata_borderColor;
+  font-size: 16px;
+  .border-top-radius(5px);
+  // Heading
+  .ata-board-header-text {
+    margin: 0;
+    line-height: 20px;
+    .aicon-countdown-waiting, .aicon-countdown-review,
+    .aicon-countdown-running, .aicon-countdown-closed {
+      vertical-align: text-top;
+    }
+  }
+  &.ata-board-closed {
+    .gradientBar( #f7f7f7, #cbcbcb, #727272, 0px 1px 0px #fff);
+    border-bottom: 1px solid #727272;
+
+  }
+  &.ata-board-running {
+    .gradientBar( #ffecd8, #e8af71, #bd6200, 0px 1px 0px #fff);
+    border-bottom: 1px solid #bd6200;
+  }
+  &.ata-board-review {
+    .gradientBar( #e7faff, #a5d4d4, #0d5cbb, 0px 1px 0px #fff);
+    border-bottom: 1px solid #0d5cbb;
+  }
+  &.ata-board-waiting {
+    border-bottom: 1px solid #017401;
+    .gradientBar( #d4fed4, #6cad6c, #017401, 0px 1px 0px #fff);
+  }
+}
+
+.ata-board-body {
+  position: relative;
+  overflow-y: auto;
+  max-height: 400px;
+  padding: 15px;
+}
+
