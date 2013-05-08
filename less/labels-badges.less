@@ -8,7 +8,8 @@
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: @baseFontSize * .846;
+  // font-size: @baseFontSize * .846;
+  font-size: @baseFontSize;
   // font-weight: bold;
   line-height: 14px; // ensure proper line-height if floated
   color: @white;
@@ -73,13 +74,18 @@ a {
     color:            @ata_classFont !important;
     padding:          4px 14px;
     border:           1px solid @ata_classBorder;
+    &.active, &.active[href] {
+      color: @ata_classFontHover !important;
+      background-color: @ata_classBgHover !important;
+    }
   }
   &-class[href]       {
     background-color: @ata_classBg !important;
     color:            @ata_classFont !important;
     padding:          4px 14px;
     &:hover {
-      color: @ata_orange !important;
+      color: @ata_classFontHover !important;
+      background-color: @ata_classBgHover !important;
     }
   }
 
@@ -88,13 +94,18 @@ a {
     background-color: @ata_tagBg !important;
     color:            @ata_tagFont !important;
     padding:          2px 12px;
+    &.active, &.active[href] {
+      color: @ata_tagFontHover !important;
+      background-color: @ata_tagBgHover !important;
+    }
   }
   &-tag[href]       {
     background-color: @ata_tagBg !important;
     color:            @ata_tagFont !important;
     padding:          2px 12px;
     &:hover {
-      color: @ata_orange !important;
+      color: @ata_tagFontHover !important;
+      background-color: @ata_tagBgHover !important;
     }
   }
 }

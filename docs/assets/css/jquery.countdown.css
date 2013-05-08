@@ -1,26 +1,39 @@
 div.ata_countdown {
-    color: white;
+    line-height: 40px;
     margin: 10px auto;
-    width: 200px;
+    width: 220px;
     overflow: hidden;
     text-align: center;
+
 }
 
 div.ata_countdown .cd_elem {
-    /*background: #333;*/
-    background-color: #e3db9a;
     float: left;
-    height: 50px;
+    height: 40px;
 }
 
-div.ata_countdown .cd_elem span {
-    display: block;
-    font-size: 30px;
+div.ata_countdown .cd_value {
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+    Unknown property name.-moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 28px;
     line-height: 24px;
-    font-weight: bold;
-    padding: 5px 0 0;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    box-shadow: -1px 2px 11px #CCC;
 }
 
+/*div.ata_countdown .cd_elem span {*/
+    /*display: block;*/
+    /*font-size: 30px;*/
+    /*line-height: 24px;*/
+    /*font-weight: bold;*/
+    /*padding: 5px 0 0;*/
+/*}*/
+
+/*
 div.ata_countdown div.space {
     color: #ccc;
     display: block;
@@ -30,8 +43,10 @@ div.ata_countdown div.space {
     height: 50px;
     margin:auto;
 }
+*/
+
 div.ata_countdown .ata_cd_unit {
-    line-height: 12px;
+    line-height: 16px;
     font-size: 10px;
-    margin:5px;
+    color:  #9f9f9f;
 }
