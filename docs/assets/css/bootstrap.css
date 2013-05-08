@@ -7656,9 +7656,12 @@ a.badge:focus {
 .aicon-fav,
 .aicon-msg,
 .aicon-manage {
+  display: inline-block;
+  *display: inline;
   width: 16px;
   height: 16px;
   background: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png') no-repeat 0 -100px;
+  *zoom: 1;
 }
 
 .aicon-fav {
