@@ -7665,13 +7665,13 @@ a.badge:focus {
 }
 
 .aicon-fav {
-  background-position: 16px -100px;
+  background-position: -16px -100px;
 }
 
 .aicon-msg {
-  background-position: 32px -100px;
+  background-position: -32px -100px;
 }
 
 .aicon-manage {
-  background-position: 48px -100px;
+  background-position: -48px -100px;
 }
