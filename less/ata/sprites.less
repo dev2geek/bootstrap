@@ -1,0 +1,19 @@
+@ata-sprits-url: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+
+@import "sprites-old.less";
+
+@x: 16px;
+@y: -100px;
+
+.aicon-update,
+.aicon-fav,
+.aicon-msg,
+.aicon-manage {
+    width: 16px;
+    height: 16px;
+    background: @ata-sprits-url no-repeat @x*0 @y;
+}
+
+.aicon-fav      { background-position: @x*1 @y; }
+.aicon-msg      { background-position: @x*2 @y; }
+.aicon-manage   { background-position: @x*3 @y; }
