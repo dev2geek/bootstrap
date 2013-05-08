@@ -7276,7 +7276,7 @@ a.badge:focus {
 .aicon-countdown-review,
 .aicon-activity-top {
   display: inline-block;
-  background-image: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+  background-image: url('http://img04.taobaocdn.com/tps/i4/T1slezXyNfXXXqMHDW-620-200.png');
   background-repeat: no-repeat;
 }
 
@@ -7331,7 +7331,7 @@ a.badge:focus {
 .aicon-more:hover,
 .aicon-closehover {
   display: inline-block;
-  background-image: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+  background-image: url('http://img04.taobaocdn.com/tps/i4/T1slezXyNfXXXqMHDW-620-200.png');
   background-repeat: no-repeat;
 }
 
@@ -7677,25 +7677,45 @@ a.badge:focus {
 
 /*QS-E*/
 .aicon-update,
-.aicon-fav,
-.aicon-msg,
+.aicon-favorite,
+.aicon-message,
 .aicon-manage {
   display: inline-block;
   *display: inline;
   width: 16px;
   height: 16px;
-  background: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png') no-repeat 0 -100px;
+  background: url('http://img04.taobaocdn.com/tps/i4/T1slezXyNfXXXqMHDW-620-200.png') no-repeat;
   *zoom: 1;
 }
 
-.aicon-fav {
+.aicon-update {
+  background-position: 0 -100px;
+}
+
+.aicon-favorite {
   background-position: -16px -100px;
 }
 
-.aicon-msg {
+.aicon-message {
   background-position: -32px -100px;
 }
 
 .aicon-manage {
   background-position: -48px -100px;
+}
+
+.active .aicon-update {
+  background-position: 0 -116px;
+}
+
+.active .aicon-favorite {
+  background-position: -16px -116px;
+}
+
+.active .aicon-message {
+  background-position: -32px -116px;
+}
+
+.active .aicon-manage {
+  background-position: -48px -116px;
 }

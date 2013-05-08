@@ -1,4 +1,4 @@
-@ata-sprits-url: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+@ata-sprits-url: url('http://img04.taobaocdn.com/tps/i4/T1slezXyNfXXXqMHDW-620-200.png');
 
 @import "sprites-old.less";
 
@@ -6,17 +6,25 @@
 @y: -100px;
 
 .aicon-update,
-.aicon-fav,
-.aicon-msg,
+.aicon-favorite,
+.aicon-message,
 .aicon-manage {
     display: inline-block;
     *display: inline;
     *zoom: 1;
     width: 16px;
     height: 16px;
-    background: @ata-sprits-url no-repeat @x*0 @y;
+    background: @ata-sprits-url no-repeat;
 }
 
-.aicon-fav      { background-position: @x*1 @y; }
-.aicon-msg      { background-position: @x*2 @y; }
+.aicon-update   { background-position: @x*0 @y; }
+.aicon-favorite { background-position: @x*1 @y; }
+.aicon-message  { background-position: @x*2 @y; }
 .aicon-manage   { background-position: @x*3 @y; }
+
+.active {
+    .aicon-update   { background-position: @x*0 @y - 16; }
+    .aicon-favorite { background-position: @x*1 @y - 16; }
+    .aicon-message  { background-position: @x*2 @y - 16; }
+    .aicon-manage   { background-position: @x*3 @y - 16; }
+}
