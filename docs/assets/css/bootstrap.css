@@ -7240,3 +7240,435 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+/*QS-B*/
+
+/* QuickSprites - BEGIN - DO NOT REMOVE THIS LINE */
+
+.aicon-activity-legacy,
+.aicon-countdown-running,
+.aicon-countdown-closed,
+.aicon-countdown-waiting,
+.aicon-countdown-review,
+.aicon-activity-top {
+  display: inline-block;
+  background-image: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+  background-repeat: no-repeat;
+}
+
+.aicon-unfold,
+.aicon-unfold:hover,
+.aicon-view,
+.aicon-refresh,
+.aicon-refresh:hover,
+.aicon-articletop,
+.aicon-comment,
+.aicon-close,
+.aicon-broadcast,
+.aicon-navmessageempty,
+.aicon-navhomewhite,
+.aicon-navhomegray,
+.aicon-navhelp,
+.aicon-navmessage,
+.aicon-rank2,
+.aicon-profile,
+.aicon-delete,
+.aicon-delete:hover,
+.aicon-fold,
+.aicon-fold:hover,
+.aicon-article,
+.aicon-newactivity,
+.aicon-newactivity:hover,
+.aicon-fav,
+.aicon-newqa,
+.aicon-newqa:hover,
+.aicon-rank1,
+.aicon-qatop,
+.aicon-like,
+.aicon-newarticle,
+.aicon-newarticle:hover,
+.aicon-answer,
+.aicon-edit,
+.aicon-edit:hover,
+.aicon-down,
+.aicon-qa,
+.aicon-same,
+.aicon-up,
+.aicon-activity,
+.aicon-rank3,
+.aicon-help,
+.aicon-help:hover,
+.aicon-canclefav,
+.aicon-canclefav:hover,
+.aicon-attend,
+.aicon-invite,
+.aicon-invite:hover,
+.aicon-more,
+.aicon-more:hover,
+.aicon-closehover {
+  display: inline-block;
+  background-image: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png');
+  background-repeat: no-repeat;
+}
+
+.aicon-unfold {
+  width: 16px;
+  height: 16px;
+  background-position: -408px -24px;
+}
+
+.aicon-unfold:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -448px 0;
+}
+
+.aicon-view {
+  width: 16px;
+  height: 16px;
+  background-position: -424px -24px;
+}
+
+.aicon-refresh {
+  width: 16px;
+  height: 16px;
+  background-position: -432px 0;
+}
+
+.aicon-refresh:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -504px -32px;
+}
+
+.aicon-articletop {
+  width: 24px;
+  height: 24px;
+  background-position: -360px 0;
+}
+
+.aicon-comment {
+  width: 16px;
+  height: 16px;
+  background-position: -440px -16px;
+}
+
+.aicon-close {
+  width: 16px;
+  height: 16px;
+  background-position: -440px -32px;
+}
+
+.aicon-navmessageempty {
+  width: 24px;
+  height: 24px;
+  background-position: -360px -24px;
+}
+
+.aicon-broadcast {
+  width: 24px;
+  height: 24px;
+  background-position: -384px 0;
+}
+
+.aicon-navhelp {
+  width: 16px;
+  height: 16px;
+  background-position: -456px -16px;
+}
+
+.aicon-navmessage {
+  width: 24px;
+  height: 24px;
+  background-position: -384px -24px;
+}
+
+.aicon-rank2 {
+  width: 12px;
+  height: 12px;
+  background-position: -584px -32px;
+}
+
+.aicon-profile {
+  width: 16px;
+  height: 16px;
+  background-position: -456px -32px;
+}
+
+.aicon-delete {
+  width: 16px;
+  height: 16px;
+  background-position: -464px 0;
+}
+
+.aicon-delete:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -552px -32px;
+}
+
+.aicon-fold {
+  width: 16px;
+  height: 16px;
+  background-position: -472px -16px;
+}
+
+.aicon-fold:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -472px -32px;
+}
+
+.aicon-article {
+  width: 16px;
+  height: 16px;
+  background-position: -480px 0;
+}
+
+.aicon-navhomegray {
+  width: 16px;
+  height: 16px;
+  background-position: -488px -17px;
+}
+
+.aicon-newactivity:hover {
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+  background-position: -45px 0;
+}
+
+.aicon-newactivity {
+  width: 45px;
+  height: 47px;
+  background-position: -315px 0;
+}
+
+.aicon-fav {
+  width: 16px;
+  height: 16px;
+  background-position: -488px -32px;
+}
+
+.aicon-newqa:hover {
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+  background-position: -90px 0;
+}
+
+.aicon-newqa {
+  width: 45px;
+  height: 47px;
+  background-position: 0 0;
+}
+
+.aicon-navhomewhite {
+  width: 16px;
+  height: 16px;
+  background-position: -496px 0;
+}
+
+.aicon-rank1 {
+  width: 12px;
+  height: 12px;
+  background-position: -592px 0;
+}
+
+.aicon-qatop {
+  width: 24px;
+  height: 24px;
+  background-position: -408px 0;
+}
+
+.aicon-like {
+  width: 16px;
+  height: 16px;
+  background-position: -512px 0;
+}
+
+.aicon-newarticle {
+  width: 45px;
+  height: 47px;
+  background-position: -180px 0;
+}
+
+.aicon-newarticle:hover {
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+  background-position: -225px 0;
+}
+
+.aicon-answer {
+  width: 16px;
+  height: 16px;
+  background-position: -520px -16px;
+}
+
+.aicon-edit {
+  width: 16px;
+  height: 16px;
+  background-position: -520px -32px;
+}
+
+.aicon-edit:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -560px 0;
+}
+
+.aicon-down {
+  width: 12px;
+  height: 12px;
+  background-position: -596px -32px;
+}
+
+.aicon-qa {
+  width: 16px;
+  height: 16px;
+  background-position: -528px 0;
+}
+
+.aicon-same {
+  width: 12px;
+  height: 12px;
+  background-position: -600px -12px;
+}
+
+.aicon-up {
+  width: 12px;
+  height: 12px;
+  background-position: -604px 0;
+}
+
+.aicon-activity {
+  width: 16px;
+  height: 16px;
+  background-position: -536px -16px;
+}
+
+.aicon-rank3 {
+  width: 12px;
+  height: 12px;
+  background-position: -608px -24px;
+}
+
+.aicon-help {
+  width: 16px;
+  height: 16px;
+  background-position: -536px -32px;
+}
+
+.aicon-help:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -576px 0;
+}
+
+.aicon-canclefav {
+  width: 16px;
+  height: 16px;
+  background-position: -544px 0;
+}
+
+.aicon-canclefav:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -504px -16px;
+}
+
+.aicon-attend {
+  width: 16px;
+  height: 16px;
+  background-position: -568px -16px;
+}
+
+.aicon-invite:hover {
+  width: 45px;
+  height: 47px;
+  cursor: pointer;
+  background-position: -270px 0;
+}
+
+.aicon-invite {
+  width: 45px;
+  height: 47px;
+  background-position: -135px 0;
+}
+
+.aicon-more {
+  width: 16px;
+  height: 16px;
+  background-position: -568px -32px;
+}
+
+.aicon-more:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -552px -16px;
+}
+
+.aicon-closehover {
+  width: 16px;
+  height: 16px;
+  background-position: -584px -16px;
+}
+
+.aicon-activity-legacy {
+  width: 16px;
+  height: 16px;
+  background-position: -104px 0;
+}
+
+.aicon-countdown-running {
+  width: 20px;
+  height: 20px;
+  background-position: -24px 0;
+}
+
+.aicon-countdown-closed {
+  width: 20px;
+  height: 20px;
+  background-position: -44px 0;
+}
+
+.aicon-countdown-waiting {
+  width: 20px;
+  height: 20px;
+  background-position: -64px 0;
+}
+
+.aicon-countdown-review {
+  width: 20px;
+  height: 20px;
+  background-position: -84px 0;
+}
+
+.aicon-activity-top {
+  width: 24px;
+  height: 24px;
+  background-position: 0 0;
+}
+
+/*QS-E*/
+.aicon-update,
+.aicon-fav,
+.aicon-msg,
+.aicon-manage {
+  width: 16px;
+  height: 16px;
+  background: url('http://img02.taobaocdn.com/tps/i2/T1LjepXABhXXXqMHDW-620-200.png') no-repeat 0 -100px;
+}
+
+.aicon-fav {
+  background-position: 16px -100px;
+}
+
+.aicon-msg {
+  background-position: 32px -100px;
+}
+
+.aicon-manage {
+  background-position: 48px -100px;
+}
