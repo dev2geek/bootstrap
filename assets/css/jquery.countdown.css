@@ -1,0 +1,52 @@
+div.ata_countdown {
+    line-height: 40px;
+    margin: 10px auto;
+    width: 220px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+div.ata_countdown .cd_elem {
+    float: left;
+    height: 40px;
+}
+
+div.ata_countdown .cd_value {
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+    Unknown property name.-moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 28px;
+    line-height: 24px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    box-shadow: -1px 2px 11px #CCC;
+}
+
+/*div.ata_countdown .cd_elem span {*/
+    /*display: block;*/
+    /*font-size: 30px;*/
+    /*line-height: 24px;*/
+    /*font-weight: bold;*/
+    /*padding: 5px 0 0;*/
+/*}*/
+
+/*
+div.ata_countdown div.space {
+    color: #ccc;
+    display: block;
+    line-height: 50px;
+    font-size: 20px;
+    float: left;
+    height: 50px;
+    margin:auto;
+}
+*/
+
+div.ata_countdown .ata_cd_unit {
+    line-height: 16px;
+    font-size: 10px;
+    color:  #9f9f9f;
+}
